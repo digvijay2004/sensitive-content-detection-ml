@@ -1,0 +1,24 @@
+# Ignore datasets
+tomatoes_model_dataset/
+dataset/
+
+# Ignore huge model files (over GitHub limit)
+fire_classifier.pth
+fire_classifier_best.pth
+
+# Ignore python cache
+__pycache__/
+
+# Ignore common large image files
+*.jpg
+*.jpeg
+*.png
+
+# Ignore video files
+static/videos/*.mp4
+*.mp4
+
+
+# Allow static & templates images (website UI)
+!static/**
+!templates/**
