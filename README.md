@@ -61,3 +61,24 @@ Active_Version/
 │   └── index.html           # Web UI
 ├── styles.css               # Styling for the web UI
 └── .gitignore               # Ignores datasets, large models, videos, caches, etc.
+---
+
+## 🚀 How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+(Optional) Train the model locally:
+
+```bash
+python train.py
+```
